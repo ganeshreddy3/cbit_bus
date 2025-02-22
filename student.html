@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Login page</title>
+    <style>
+        legend{
+            text-align: center;
+            border-radius: 50px;
+            border: 50px;
+            background-color: antiquewhite;
+        }
+        fieldset{
+            border: 2px solid #4CAF50;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        .box{
+            display: flex;
+            margin-left: 360px;
+            margin-right: 360px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CBIT Logo" class="img-fluid me-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center" href="https://www.cbit.ac.in/">
+                        <strong>CBIT</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html"><strong>Home</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.cbit.ac.in/about_post/about/"><strong>About</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="feeStructure.html"><strong>Fee Structure</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="instructions.html" class="nav-link">Instructions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="busDetails.html" class="nav-link">Bus Routes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <form action="post">
+        <center>
+        <fieldset >
+            <legend >Enter your credentials</legend>
+             
+            <div class="box">
+                <div class="input-group">
+                    <span class="input-group-text">First and Last name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                  </div>
+            </div> <br>
+
+            <div class="box">
+                <div class="input-group">
+                    <span class="input-group-text">Date of Birth</span>
+                    <input type="date" id="dob" name="dob" aria-label="dob" class="form-control">
+                  </div>
+            </div> <br>
+
+            <div class="box">
+                <div class="input-group">
+                    <span class="input-group-text">Password</span>
+                    <input type="password" aria-label="password" class="form-control">
+                  </div>
+            </div> <br>
+            
+        </fieldset>
+    </center>
+        <center>
+        <button id="btn" type="button" class="btn btn-primary">Login</button>
+        
+    </form>
+    <p>Not yet Registered? <a href="register.html">Register Here</a></p>    
+        </center>
+        <footer>
+            <div class="container" style="background: beige;">
+                <div class="col">
+                    <div class="footer">
+                        <img src="logo.png" alt="" class="immg">
+                        <br>
+                        <div class="clg">
+                            <br>
+                            College Contact Info <br>
+                            Gandipet, Hyderabad, Telangana, <br>
+                            PIN : 500075 <br>
+                            Phone: 040-24193276 <br>
+                            Mobile: 8466997201 <br>
+                            For Admissions Enquiry: 8466997216 <br>
+                            Email: principal@cbit.ac.in
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" style="margin-left: 60px; ">
+                    <div class="footer" style="margin-top:90px">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="https://www.cbit.ac.in/academic_post/academic/">Academics</a></li>
+                            <li><a href="https://www.cbit.ac.in/placement_post/placement/">Placements</a></li>
+                            <li><a href="https://www.cbit.ac.in/research_post/about-re/">Research</a></li>
+                            <li><a href="https://www.cbit.ac.in/about_post/office/">Industry</a></li>
+                            <li><a href="https://alumni.cbit.ac.in/">Alumni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 50px; margin-right:60px">
+                    <div class="footer mt-4 text-center">
+                        <p><strong>Follow us on:</strong></p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="https://www.facebook.com/CBIThyderabad/" class="text-dark fs-4">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/CBIThyd" class="text-dark fs-4">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/cbithyderabad/" class="text-dark fs-4">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chaitanya-bharathi-institute-of-technology-214b97218/" class="text-dark fs-4">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+</body>

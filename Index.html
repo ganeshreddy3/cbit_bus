@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>CBIT Transportation System</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .body {
+            flex: 1;
+        }
+        html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('cbitImg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.login-box h3 {
+    margin-bottom: 20px;
+}
+.login-box button {
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 5px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login-box button:hover {
+    background-color: #0056b3;
+}
+.footer{
+    background-color: beige;
+}
+.immg{
+margin-left: 200px;
+height: 100px;
+width: 300px;
+}
+.clg{
+margin-left: 230px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    flex-shrink: 0;
+}
+.container{
+    display: flex;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="logo.png" alt="CBIT Logo" class="img-fluid me-2">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center" href="https://www.cbit.ac.in/">
+                        <strong>CBIT</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html"><strong>Home</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.cbit.ac.in/about_post/about/"><strong>About</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="feeStructure.html"><strong>Fee Structure</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="instructions.html" class="nav-link">Instructions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="busDetails.html" class="nav-link">Bus Routes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="body">
+            <div class="login-box">
+                <h3>Login</h3>
+                <a href="student.html"><button>Student</button></a>
+                <a href="admin.html"><button>Admin</button></a>
+            </div>
+        </div>
+        <footer>
+            <div class="container" style="background: beige;">
+                <div class="col">
+                    <div class="footer">
+                        <img src="logo.png" alt="" class="immg">
+                        <br>
+                        <div class="clg">
+                            <br>
+                            College Contact Info <br>
+                            Gandipet, Hyderabad, Telangana, <br>
+                            PIN : 500075 <br>
+                            Phone: 040-24193276 <br>
+                            Mobile: 8466997201 <br>
+                            For Admissions Enquiry: 8466997216 <br>
+                            Email: principal@cbit.ac.in
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" style="margin-left: 60px; ">
+                    <div class="footer" style="margin-top:90px">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="https://www.cbit.ac.in/academic_post/academic/">Academics</a></li>
+                            <li><a href="https://www.cbit.ac.in/placement_post/placement/">Placements</a></li>
+                            <li><a href="https://www.cbit.ac.in/research_post/about-re/">Research</a></li>
+                            <li><a href="https://www.cbit.ac.in/about_post/office/">Industry</a></li>
+                            <li><a href="https://alumni.cbit.ac.in/">Alumni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 50px; margin-right:60px">
+                    <div class="footer mt-4 text-center">
+                        <p><strong>Follow us on:</strong></p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="https://www.facebook.com/CBIThyderabad/" class="text-dark fs-4">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/CBIThyd" class="text-dark fs-4">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/cbithyderabad/" class="text-dark fs-4">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chaitanya-bharathi-institute-of-technology-214b97218/" class="text-dark fs-4">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
